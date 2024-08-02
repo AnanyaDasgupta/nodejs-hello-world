@@ -8,6 +8,8 @@ RUN npm install
 
 EXPOSE 3000
 
+COPY . .
+
 WORKDIR /app
 
 CMD [ "node", "app.js" ]
